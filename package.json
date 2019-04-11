@@ -63,7 +63,7 @@
     "start:server": "node dist/server.js",
     "start:documentation": "npx styleguidist server",
     "build:client": "react-scripts build",
-    "build:server": "yarn webpack --config server.config.js --mode development",
+    "build:server": "yarn webpack --config server.config.js --mode production",
     "build:documentation": "npx styleguidist build",
     "build": "yarn build:client && yarn build:server",
     "test": "react-scripts test",
