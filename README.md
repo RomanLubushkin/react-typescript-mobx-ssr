@@ -39,8 +39,8 @@ yarn start:server
 ```
 
 ## Building documentation
-Run ``start:documentation`` to start a style documentation dev server.
-Run ``build:documentation`` to build a production HTML version.
+Run ``yarn start:documentation`` to start a style documentation dev server.
+Run ``yarn build:documentation`` to build a production HTML version.
 
 ## PS
 This project is on development, if you have any ideas of improving this boilerplate, don't hesitate to share your ideas as issues. 

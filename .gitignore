@@ -9,6 +9,7 @@
 # production
 /build
 /dist
+/styleguide
 
 # misc
 .idea
