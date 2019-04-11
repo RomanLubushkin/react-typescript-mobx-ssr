@@ -6,8 +6,8 @@ const firstNames = ['Oliver', 'George', 'Harry', 'Jack', 'Jacob', 'Noah', 'Charl
 const lastNames = ['Smith', 'Johnson', 'Williams', 'Jones', 'Brown', 'Davis', 'Miller', 'Wilson', 'Moore', 'Taylor'];
 
 export default class AppStore {
-    @observable firstName: string = '';
-    @observable lastName: string = '';
+    @observable firstName: string = 'Oliver';
+    @observable lastName: string = 'Smith';
 
     constructor(initialState: InitialState) {
         if (initialState.firstName) {
