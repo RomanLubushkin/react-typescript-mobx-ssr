@@ -12,11 +12,11 @@ I hope, someday it will change.
 * [Typescript](https://www.typescriptlang.org/) for happy coding.
 * [MobX](https://mobx.js.org/) for state management.
 * [Express](https://expressjs.com/) as a web server for SSR (server side rendering).
-* [React router](https://github.com/ReactTraining/react-router) for client side routing.
+* [React Router](https://github.com/ReactTraining/react-router) for client side routing.
 * [React Helmet](https://github.com/nfl/react-helmet) for SEO (search engine optimization).
 * [React Loadable](https://github.com/jamiebuilds/react-loadable) for component-based code splitting.
-* [Styled components](https://www.styled-components.com/) for styling.
-* [React hydrate](https://reactjs.org/docs/react-dom.html#hydrate) for performance optimization after initial page render.  
+* [Styled Components](https://www.styled-components.com/) for styling.
+* [React Hydrate](https://reactjs.org/docs/react-dom.html#hydrate) for performance optimization after initial page render.  
 * [React Styleguidist](https://react-styleguidist.js.org/) for components documentation.
 * [EditorConfig](https://editorconfig.org/) maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
 
