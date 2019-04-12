@@ -2,6 +2,9 @@ import * as React from 'react';
 import {StyledText} from '../ui/StyledText';
 
 export interface SimpleComponentProps {
+    /**
+     * Text that will be displayed as StyledText
+     */
     text: string;
 }
 
