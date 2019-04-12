@@ -3,14 +3,17 @@ import {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {Routes} from './store/meta';
 import Pages from './pages'
+import {WithTranslation, withTranslation} from 'react-i18next';
 
-interface AppProps {
+interface AppProps extends WithTranslation {
 }
 
-export default class App extends Component<AppProps> {
+class App extends Component<AppProps> {
     render() {
+        const {t} = this.props;
         return (
             <div className="App">
+                {t('ui-localized')}
                 <h1>
                     <Link to={Routes.MAIN_PAGE}>MainPage</Link>
                     <span> | </span>
@@ -21,3 +24,5 @@ export default class App extends Component<AppProps> {
         );
     }
 }
+
+export default withTranslation()(App);

@@ -15,6 +15,7 @@ I hope, someday it will change.
 * [React Router](https://github.com/ReactTraining/react-router) for client side routing.
 * [React Helmet](https://github.com/nfl/react-helmet) for SEO (search engine optimization).
 * [React Loadable](https://github.com/jamiebuilds/react-loadable) for component-based code splitting.
+* [React i18next](https://react.i18next.com/) for localization.
 * [Styled Components](https://www.styled-components.com/) for styling.
 * [React Hydrate](https://reactjs.org/docs/react-dom.html#hydrate) for performance optimization after initial page render.  
 * [React Styleguidist](https://react-styleguidist.js.org/) for components documentation.

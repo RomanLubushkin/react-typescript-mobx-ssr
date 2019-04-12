@@ -9,6 +9,8 @@ import App from '../src/App';
 import AppStore from '../src/store/AppStore';
 import {buildModulesMap, extractModules, injectHTML} from './utils';
 import {ServerStyleSheet, StyleSheetManager} from 'styled-components';
+import {useSSR} from 'react-i18next';
+import {buildI18n, mockTranslations} from '../src/i18n/i18n';
 
 const manifest = require('build/asset-manifest.json');
 const modulesMap = buildModulesMap(manifest);
@@ -38,6 +40,8 @@ export default (req, res) => {
         // todo: define mobx initial state based on authorization
 
         const state = {firstName: 'Oliver', lastName: 'Smith'};
+        const i18n = buildI18n(mockTranslations);
+        useSSR(i18n, 'en');
         const appStore = new AppStore(state);
         const [markup, modules, styles] = renderApp(appStore, sheet, req.url);
         const helmet = Helmet.renderStatic();
