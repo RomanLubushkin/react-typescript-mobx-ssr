@@ -18,6 +18,7 @@ I hope, someday it will change.
 * [Styled components](https://www.styled-components.com/) for styling.
 * [React hydrate](https://reactjs.org/docs/react-dom.html#hydrate) for performance optimization after initial page render.  
 * [React Styleguidist](https://react-styleguidist.js.org/) for components documentation.
+* [EditorConfig](https://editorconfig.org/) maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs.
 
 ## Install dependencies
 To install dependencies simply run ``yarn install``.
