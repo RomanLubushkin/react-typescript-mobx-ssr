@@ -61,11 +61,12 @@
   "scripts": {
     "start:client": "react-scripts start",
     "start:server": "node dist/server.js",
-    "start:documentation": "npx styleguidist server",
+    "start:docs": "npx styleguidist server",
     "build:client": "react-scripts build",
     "build:server": "yarn webpack --config server.config.js --mode production",
-    "build:documentation": "npx styleguidist build",
+    "build:docs": "npx styleguidist build",
     "build": "yarn build:client && yarn build:server",
+    "restart:server": "yarn build:client && yarn build:server && yarn start:server",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

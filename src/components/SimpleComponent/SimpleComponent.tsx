@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {StyledText} from '../ui/StyledText';
+import {StyledText} from '../../ui/StyledText/StyledText';
 
 export interface SimpleComponentProps {
     /**

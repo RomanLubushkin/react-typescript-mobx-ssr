@@ -1,9 +1,9 @@
 import * as React from 'react';
 import styled from 'styled-components';
 
-const jpg = require('../assets/nodejs-icon.jpg');
-const png = require('../assets/nodejs-icon.png');
-const svg = require('../assets/nodejs-icon.svg');
+const jpg = require('../../assets/nodejs-icon.jpg');
+const png = require('../../assets/nodejs-icon.png');
+const svg = require('../../assets/nodejs-icon.svg');
 
 export interface ImagesComponentProps {
 }

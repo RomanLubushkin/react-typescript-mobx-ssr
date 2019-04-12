@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {inject, observer} from 'mobx-react';
-import {InjectParams} from '../store/meta';
-import AppStore from '../store/AppStore';
+import {InjectParams} from '../../store/meta';
+import AppStore from '../../store/AppStore';
 
 export interface ObserverComponentProps {
     appStore?: AppStore;

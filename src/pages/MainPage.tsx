@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Helmet from 'react-helmet';
-import SimpleComponent from '../components/SimpleComponent';
-import ObserverComponent from '../components/ObserverComponent';
-import ImagesComponent from '../components/ImagesComponent';
-import {AsyncImagesComponent, AsyncObserverComponent, AsyncSimpleComponent} from '../components/AsyncComponents';
+import SimpleComponent from '../components/SimpleComponent/SimpleComponent';
+import ObserverComponent from '../components/ObserverComponent/ObserverComponent';
+import ImagesComponent from '../components/ImagesComponent/ImagesComponent';
+import {AsyncImagesComponent, AsyncObserverComponent, AsyncSimpleComponent} from '../components-async';
 import {RouteComponentProps} from 'react-router';
 import AppStore from '../store/AppStore';
 import {InjectParams} from '../store/meta';
